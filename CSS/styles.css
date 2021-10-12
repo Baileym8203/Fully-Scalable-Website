@@ -187,3 +187,27 @@ margin-left: 922px;
 
 }
 
+.uprising-img {
+float: left;
+border-radius: 5%;
+padding: 10px 10px;
+margin: 10px 10px;
+}
+
+.art-1, .art-2 {
+margin-left: 815px;
+
+}
+
+.art-3, .art-4 {
+text-align: right;
+
+}
+
+.tron-lives {
+float: right;
+border-radius: 5%;
+padding: 10px 10px;
+margin: 10px 10px;
+}
+
