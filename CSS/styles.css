@@ -211,3 +211,31 @@ padding: 10px 10px;
 margin: 10px 10px;
 }
 
+.jared-leto {
+float: left;
+padding: 5px 5px;
+margin: 5px 5px;
+border-radius: 3%;
+}
+
+.at-1 {
+margin-left: 600px;
+}
+
+.rinzler-end {
+float: right;
+padding: 7px 7px;
+margin: 7px 7px;
+border-radius: 3%;
+}
+
+.at-3 {
+text-align: right;
+
+}
+
+.at-4 {
+text-align: right;
+
+}
+
