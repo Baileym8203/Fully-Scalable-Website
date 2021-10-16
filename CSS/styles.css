@@ -7,7 +7,7 @@
 
 body { font-family: Kanit; 
        font-size: 18px;
-       background-color: #231F20;
+       background-color:#231F20;
     }     
       
 h1 {
@@ -237,5 +237,18 @@ text-align: right;
 .at-4 {
 text-align: right;
 
+}
+
+.body-contact {
+background-color: #231F20;
+
+}
+
+.contact {
+color: white;
+font-size: 40px;
+border-spacing: 100px;
+text-align: center;
+flex: space-around;
 }
 
