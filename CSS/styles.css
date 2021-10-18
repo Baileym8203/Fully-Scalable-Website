@@ -276,7 +276,7 @@
     }
     
     @media all and (max-width: 2560px) and (min-width: 1441px){
-    .page-footer {}
+    .page-footer { margin-top: 115px;}
     
     }
     .contact-1 {
