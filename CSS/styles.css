@@ -1,402 +1,321 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 :root {
---primary-color: blue;
---secondary-color: orangered;
---teritiary-color: lightgrey;
-}
-
-
-body { font-family: Kanit; 
-       font-size: 18px;
-       background-color:#231F20;
-    }     
-      
-h1 {
-font-weight: 450;
-font-size: 40px;
-color: white;
-}
-
-.span1 {
-margin-left: 15px;
-
-}
-
-p {
-    color: white;
+    --primary-color: blue;
+    --secondary-color: orangered;
+    --teritiary-color: lightgrey;
+    }
     
-    }      
-
-.span2 {
-margin-left: 15px;
-
-}
-
-    a { color:white;
-text-decoration: none;
-}
-
-a:visited { color: white;
-text-decoration: none;
-}
-
-a:hover, a:focus { color: black;
-text-decoration: none
-}
-
-a:active { color: black;
-text-decoration: none;
-}
-
-* {
-box-sizing: border-box;
-padding: 0 0 0 0;
-margin: 0 0 0 0;
-}
-
-.page-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 1%;
-}
-
-
-   
-    .navigation-list_item--active{ text-decoration: none;
+    
+    body { font-family: Kanit; 
+           font-size: 18px;
+           background-color:#231F20;
+        }     
+          
+    h1 {
+    font-weight: 450;
+    font-size: 40px;
+    color: white;
     }
-
-    .navigation-list {
-    list-style: none;
+    
+    .span1 {
+    margin-left: 15px;
+    
+    }
+    
+    p {
+        color: white;
+        
+        }      
+    
+    .span2 {
+    margin-left: 15px;
+    
+    }
+    
+        a { color:white;
     text-decoration: none;
     }
-
-    .navigation-list li {
-    display: inline-block;
-    padding: 0 20px;
+    
+    a:visited { color: white;
     text-decoration: none;
-}
- 
-    .navigation-list li a {
-    transition: all 0.3s ease 0s;
-
     }
-
-    .navigation-list-item {
+    
+    a:hover, a:focus { color: black;
+    text-decoration: none
+    }
+    
+    a:active { color: black;
     text-decoration: none;
-
     }
+    
+    * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    }
+    
+    .page-header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 20px 1%;
+    }
+    
+    
+       
+        .navigation-list_item--active{ text-decoration: none;
+        }
+    
+        .navigation-list {
+        list-style: none;
+        text-decoration: none;
+        }
+    
+        .navigation-list li {
+        display: inline-block;
+        padding: 0 20px;
+        text-decoration: none;
+    }
+     
+        .navigation-list li a {
+        -webkit-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+    
+        }
+    
+        .navigation-list-item {
+        text-decoration: none;
+    
+        }
+            
         
     
-
-   
-
-ul li {
- list-style-type: none;
- text-decoration: none;
-}
-
-.img-logo { 
-position: relative;
-padding: 10px 10px;
-margin: 10px 10px;
-cursor: pointer;
-}
-
-
-.page-header {
-border: outset black 10px; 
-background-color: rgb(255, 0, 255);
-border-bottom: 5px;
-border-top: 5px;
-border-left: 100px;
-border-right: 100px;
-position: relative;
-}
-
-.div-home {
-border: solid black 10px;
-
-border-right: 100px;
-border-left: 100px;
-border-top: 5px;
-border-bottom: 5px;
-}
-
-.img-flynn {
-float: left;
-padding: 5px 5px;
-margin: 5px 5px;
-border-radius: 10%;
-}
-
-.text-list {
-padding: 10px 10px;
-margin: 10px 10px;
-
-}
-
-.daft-punk {
-float: right;
-border-radius: 10%;
-padding: 5px 5px;
-margin: 5px 5px;
-}
-
-.text-list2 {
-text-align: right;
-
-
-}
-
-.tron-logo {
-float: right;
-margin: 0 0 0 0;
-padding: 0 0 0 0;
-width: 50%;
-}
-
-.text-list3 {
-padding: 10px 10px;
-
-}
-
-.vs-img {
-float: left;
-}
-
-.text-list4 {
-margin-left: 922px;
-
-}
-
-.text-list5 {
-margin-left: 922px;
-
-}
-
-.page-footer {
+       
+    
+    ul li {
+     list-style-type: none;
+     text-decoration: none;
+    }
+    
+    .img-logo { 
+    position: relative;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+    }
+    
+    
+    .page-header {
     border: outset black 10px; 
-    background-color: rgb(255, 123, 0);
+    background-color: rgb(255, 0, 255);
     border-bottom: 5px;
     border-top: 5px;
     border-left: 100px;
     border-right: 100px;
     position: relative;
-
-}
-
-.uprising-img {
-float: left;
-border-radius: 5%;
-padding: 10px 10px;
-margin: 10px 10px;
-}
-
-.art-1, .art-2 {
-margin-left: 815px;
-
-}
-
-.art-3, .art-4 {
-text-align: right;
-
-}
-
-.tron-lives {
-float: right;
-border-radius: 5%;
-padding: 10px 10px;
-margin: 10px 10px;
-}
-
-.jared-leto {
-float: left;
-padding: 5px 5px;
-margin: 5px 5px;
-border-radius: 3%;
-}
-
-.at-1 {
-margin-left: 600px;
-}
-
-.rinzler-end {
-float: right;
-padding: 7px 7px;
-margin: 7px 7px;
-border-radius: 3%;
-}
-
-.at-3 {
-text-align: right;
-
-}
-
-.at-4 {
-text-align: right;
-
-}
-
-.body-contact {
-background-color: #231F20;
-
-}
-
-.contact-1 {
-color: white;
-font-size: 40px;
-border-spacing: 120px;
-text-align: center;
-flex: space-around;
-}
-
-.b1,
-.b2,
-.b3,
-.b4,
-.body-contact{
-position: relative;
-}
-
-@media all and (max-width: 2560px) and (min-width: 1441px){
-.page-footer { margin-top: 115px;
-
-}
-.contact-1 {
-    color: white;
-    font-size: 40px;
-    border-spacing: 275px;
-    text-align: center;
-    flex: space-around;
     }
-
-}
-
-@media all and (max-width:1440px) and (min-width:1025px){
- .vs-img{
-margin-top: 75px;
-height: 630px;
- }   
-.uprising-img{
-margin-top: 55px;
-height: 620px;
-}
-.tron-logo{
-display: none;
-
-}
-}
-
-@media all and (max-width:1024px) and (min-width:769px){
-.vs-img {
-width: 950px;
-height: 525px;
-margin-left: 25px;
-margin-top: 10px;
-float: left;
-}
-.text-list4{
-text-align:left;
-margin-top: 515px;
-font-size: 14px;
-padding: 5px;
-margin-left: 5px;
-}
-
-.text-list5{
-    text-align:left;
-    margin-top: 10px;
-    font-size: 14px;
-    padding: 5px;
-    margin-left: 5px;
+    
+    .div-home {
+    border: solid black 10px;
+    
+    border-right: 100px;
+    border-left: 100px;
+    border-top: 5px;
+    border-bottom: 5px;
     }
-.tron-logo{
-display: none;
-}
-.t-del{
-display:none;
-
-}
-.text-list3{
-    margin-top:-50px;
+    
+    .img-flynn {
+    float: left;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border-radius: 10%;
     }
-.art-1, .art-2, .art-3, .art-4{
-padding: 5px;
-margin: 5px;
-  
-}
-.uprising-img{
-float:none;
-margin-left: 80px;
-width: 850px;
-height: 550px;
-margin-top: 60px;
-}
-.tron-lives{
-float:none;
-margin-left: 35px;
-width: 950px;
-height: 600px;
-margin-top: 15px;
-}
-.jared-leto{
-float: none;
-margin-left:80px;
-width:850px;
-margin-top: 40px;
-}
-.at-1, .at-2{
-margin-left: 10px;
-
-}
-.rinzler-end{
-float: none;
-margin-left:35px;
-width:950px;
-margin-top: 40px;
-}
-.at-3, .at-4{
-margin-right: 10px;
-
-}
-.contact-1 {
-    color: white;
-    font-size: 40px;
-    border-spacing: 20px 100px;
-    text-align: center;
-    flex: space-around;
-    font-size: 35px;
-    margin-top:45px;
-}
-
-
-}
-
-@media all and (max-width:988px) and (min-width:426px){
+    
+    .text-list {
+    padding: 10px 10px;
+    margin: 10px 10px;
+    
+    }
+    
+    .daft-punk {
+    float: right;
+    border-radius: 10%;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    }
+    
+    .text-list2 {
+    text-align: right;
+    
+    
+    }
+    
+    .tron-logo {
+    float: right;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 50%;
+    }
+    
+    .text-list3 {
+    padding: 10px 10px;
+    
+    }
+    
     .vs-img {
-    width: 700px;
+    float: left;
+    }
+    
+    .text-list4 {
+    margin-left: 922px;
+    
+    }
+    
+    .text-list5 {
+    margin-left: 922px;
+    
+    }
+    
+    .page-footer {
+        border: outset black 10px; 
+        background-color: rgb(255, 123, 0);
+        border-bottom: 5px;
+        border-top: 5px;
+        border-left: 100px;
+        border-right: 100px;
+        position: relative;
+    
+    }
+    
+    .uprising-img {
+    float: left;
+    border-radius: 5%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    }
+    
+    .art-1, .art-2 {
+    margin-left: 815px;
+    
+    }
+    
+    .art-3, .art-4 {
+    text-align: right;
+    
+    }
+    
+    .tron-lives {
+    float: right;
+    border-radius: 5%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    }
+    
+    .jared-leto {
+    float: left;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border-radius: 3%;
+    }
+    
+    .at-1 {
+    margin-left: 600px;
+    }
+    
+    .rinzler-end {
+    float: right;
+    padding: 7px 7px;
+    margin: 7px 7px;
+    border-radius: 3%;
+    }
+    
+    .at-3 {
+    text-align: right;
+    
+    }
+    
+    .at-4 {
+    text-align: right;
+    
+    }
+    
+    .body-contact {
+    background-color: #231F20;
+    
+    }
+    
+    .contact-1 {
+    color: white;
+    font-size: 40px;
+    border-spacing: 120px;
+    text-align: center;
+    -webkit-box-flex: space-around;
+        -ms-flex: space-around;
+            flex: space-around;
+    }
+    
+    .b1,
+    .b2,
+    .b3,
+    .b4,
+    .body-contact{
+    position: relative;
+    }
+    
+    @media all and (max-width: 2560px) and (min-width: 1441px){
+    .page-footer { margin-top: -1000px;
+    
+    }
+    .contact-1 {
+        color: white;
+        font-size: 40px;
+        border-spacing: 275px;
+        text-align: center;
+        -webkit-box-flex: space-around;
+            -ms-flex: space-around;
+                flex: space-around;
+        }
+    
+    }
+    
+    @media all and (max-width:1440px) and (min-width:1025px){
+     .vs-img{
+    margin-top: 75px;
+    height: 630px;
+     }   
+    .uprising-img{
+    margin-top: 55px;
+    height: 620px;
+    }
+    .tron-logo{
+    display: none;
+    
+    }
+    }
+    
+    @media all and (max-width:1024px) and (min-width:769px){
+    .vs-img {
+    width: 950px;
     height: 525px;
     margin-left: 25px;
     margin-top: 10px;
     float: left;
     }
-    .img-flynn{
-    float:none;
-    margin-left: 200px;
-    }
-    
-    .daft-punk{
-    margin-top:35px;
-    float:none;
-    margin-right: 10px;
-}
-    .text-list, .text-list2{
-    text-align:center;
-
-    }
-    
     .text-list4{
-    text-align:center;
+    text-align:left;
     margin-top: 515px;
     font-size: 14px;
     padding: 5px;
@@ -404,7 +323,7 @@ margin-right: 10px;
     }
     
     .text-list5{
-        text-align:center;
+        text-align:left;
         margin-top: 10px;
         font-size: 14px;
         padding: 5px;
@@ -419,83 +338,78 @@ margin-right: 10px;
     }
     .text-list3{
         margin-top:-50px;
-       text-align:center;
-    }
-    .navigation-list_item-rumor, .download{
-    display:none;
-
-    }
-    
+        }
     .art-1, .art-2, .art-3, .art-4{
     padding: 5px;
     margin: 5px;
-    text-align:center;
+      
     }
     .uprising-img{
     float:none;
-    margin-left: 40px;
-    width: 690px;
+    margin-left: 80px;
+    width: 850px;
     height: 550px;
     margin-top: 60px;
     }
     .tron-lives{
     float:none;
-    margin-left: 33px;
-    width: 700px;
+    margin-left: 35px;
+    width: 950px;
     height: 600px;
     margin-top: 15px;
     }
     .jared-leto{
     float: none;
-    margin-left:60px;
-    width:650px;
+    margin-left:80px;
+    width:850px;
     margin-top: 40px;
     }
     .at-1, .at-2{
     margin-left: 10px;
-    text-align:center;
+    
     }
     .rinzler-end{
     float: none;
     margin-left:35px;
-    width:700px;
+    width:950px;
     margin-top: 40px;
     }
     .at-3, .at-4{
     margin-right: 10px;
-    text-align:center;
+    
     }
     .contact-1 {
         color: white;
         font-size: 40px;
-        border-spacing: 10px 120px;
+        border-spacing: 20px 100px;
         text-align: center;
-        flex: space-around;
-        font-size: 25px;
+        -webkit-box-flex: space-around;
+            -ms-flex: space-around;
+                flex: space-around;
+        font-size: 35px;
         margin-top:45px;
     }
     
     
     }
-
-    @media all and (max-width:426px) and (min-width:376px){
+    
+    @media all and (max-width:988px) and (min-width:426px){
         .vs-img {
-        width: 390px;
-        height: 405px;
-        margin-left: 8px;
+        width: 700px;
+        height: 525px;
+        margin-left: 25px;
         margin-top: 10px;
         float: left;
         }
         .img-flynn{
         float:none;
-        margin-left: 25px;
+        margin-left: 200px;
         }
         
         .daft-punk{
         margin-top:35px;
         float:none;
-        margin-right: 8px;
-        width:390px;
+        margin-right: 10px;
     }
         .text-list, .text-list2{
         text-align:center;
@@ -504,18 +418,18 @@ margin-right: 10px;
         
         .text-list4{
         text-align:center;
-        margin-top: 400px;
+        margin-top: 515px;
         font-size: 14px;
-        padding: 2px;
-        margin-left: 2px;
+        padding: 5px;
+        margin-left: 5px;
         }
         
         .text-list5{
             text-align:center;
             margin-top: 10px;
             font-size: 14px;
-            padding: 2px;
-            margin-left: 2px;
+            padding: 5px;
+            margin-left: 5px;
             }
         .tron-logo{
         display: none;
@@ -525,195 +439,86 @@ margin-right: 10px;
         
         }
         .text-list3{
-            margin-top: -50px;
+            margin-top:-50px;
            text-align:center;
         }
-        .navigation-list_item-rumor, .download, .navigation-list_item-more{
+        .navigation-list_item-rumor, .download{
         display:none;
     
         }
         
         .art-1, .art-2, .art-3, .art-4{
-        padding: 2px;
-        margin: 2px;
+        padding: 5px;
+        margin: 5px;
         text-align:center;
         }
         .uprising-img{
         float:none;
-        margin-left: 15px;
-        width: 400px;
-        height: 415px;
+        margin-left: 40px;
+        width: 690px;
+        height: 550px;
         margin-top: 60px;
         }
         .tron-lives{
         float:none;
-        margin-left: 12px;
-        width: 400px;
-        height: 415px;
+        margin-left: 33px;
+        width: 700px;
+        height: 600px;
         margin-top: 15px;
         }
         .jared-leto{
         float: none;
-        margin-left:12px;
-        width:400px;
-        height: 350px;
+        margin-left:60px;
+        width:650px;
         margin-top: 40px;
         }
         .at-1, .at-2{
-        margin-left: 2px;
+        margin-left: 10px;
         text-align:center;
         }
         .rinzler-end{
         float: none;
-        margin-left:12px;
-        width:400px;
+        margin-left:35px;
+        width:700px;
         margin-top: 40px;
-        height: 350px;
-    }
+        }
         .at-3, .at-4{
-        margin-right: 2px;
+        margin-right: 10px;
         text-align:center;
         }
         .contact-1 {
-            color: #ffffff;
-            font-size:15px;
-            border-spacing: 5px 65px;
+            color: white;
+            font-size: 40px;
+            border-spacing: 10px 120px;
             text-align: center;
-            flex: space-around;
-            font-size: 15px;
-            margin-top:50px;
+            -webkit-box-flex: space-around;
+                -ms-flex: space-around;
+                    flex: space-around;
+            font-size: 25px;
+            margin-top:45px;
         }
         
         
         }
-
+    
         @media all and (max-width:426px) and (min-width:376px){
-        .vs-img {
-        width: 390px;
-        height: 405px;
-        margin-left: 8px;
-        margin-top: 10px;
-        float: left;
-        }
-
-        .img-flynn{
-        float:none;
-        margin-left: 25px;
-        }
-        
-        .daft-punk{
-        margin-top:35px;
-        float:none;
-        margin-right: 8px;
-        width:390px;
-    }
-        .text-list, .text-list2{
-        text-align:center;
-        }
-        
-        .text-list4{
-        text-align:center;
-        margin-top: 400px;
-        font-size: 14px;
-        padding: 2px;
-        margin-left: 2px;
-        }
-        
-        .text-list5{
-            text-align:center;
-            margin-top: 10px;
-            font-size: 14px;
-            padding: 2px;
-            margin-left: 2px;
-            }
-        .tron-logo{
-        display: none;
-        }
-        .t-del{
-        display:none;
-        
-        }
-        .text-list3{
-            margin-top: -50px;
-           text-align:center;
-        }
-        .navigation-list_item-rumor, .download, .navigation-list_item-more{
-        display:none;
-    
-        }
-        
-        .art-1, .art-2, .art-3, .art-4{
-        padding: 2px;
-        margin: 2px;
-        text-align:center;
-        }
-        .uprising-img{
-        float:none;
-        margin-left: 15px;
-        width: 400px;
-        height: 415px;
-        margin-top: 60px;
-        }
-        .tron-lives{
-        float:none;
-        margin-left: 12px;
-        width: 400px;
-        height: 415px;
-        margin-top: 15px;
-        }
-        .jared-leto{
-        float: none;
-        margin-left:12px;
-        width:400px;
-        height: 350px;
-        margin-top: 40px;
-        }
-        .at-1, .at-2{
-        margin-left: 2px;
-        text-align:center;
-        }
-        .rinzler-end{
-        float: none;
-        margin-left:12px;
-        width:400px;
-        margin-top: 40px;
-        height: 350px;
-    }
-        .at-3, .at-4{
-        margin-right: 2px;
-        text-align:center;
-        }
-        .contact-1 {
-            color: #ffffff;
-            font-size:15px;
-            border-spacing: 5px 65px;
-            text-align: center;
-            flex: space-around;
-            font-size: 15px;
-            margin-top:50px;
-        }
-        
-        
-        }
-        @media all and (max-width:375px) and (min-width:321px){
             .vs-img {
-            width: 293px;
-            height: 380px;
-            margin-left: 28px;
-            margin-top: 15px;
+            width: 390px;
+            height: 405px;
+            margin-left: 8px;
+            margin-top: 10px;
             float: left;
             }
             .img-flynn{
             float:none;
-            margin-left: 27px;
-            width:317px;
-        }
+            margin-left: 25px;
+            }
             
             .daft-punk{
             margin-top:35px;
             float:none;
-            margin-left:0;
-            width:317px;
+            margin-right: 8px;
+            width:390px;
         }
             .text-list, .text-list2{
             text-align:center;
@@ -758,34 +563,33 @@ margin-right: 10px;
             }
             .uprising-img{
             float:none;
-            margin-left: 28px;
-            width: 317px;
+            margin-left: 15px;
+            width: 400px;
             height: 415px;
             margin-top: 60px;
             }
             .tron-lives{
             float:none;
-            margin-left: 28px;
-            width: 317px;
+            margin-left: 12px;
+            width: 400px;
             height: 415px;
             margin-top: 15px;
             }
             .jared-leto{
             float: none;
-            margin-left:40px;
-            width:290px;
-            height: 315px;
+            margin-left:12px;
+            width:400px;
+            height: 350px;
             margin-top: 40px;
             }
             .at-1, .at-2{
             margin-left: 2px;
             text-align:center;
-            
-        }
+            }
             .rinzler-end{
             float: none;
-            margin-left:14px;
-            width:350px;
+            margin-left:12px;
+            width:400px;
             margin-top: 40px;
             height: 350px;
         }
@@ -795,36 +599,148 @@ margin-right: 10px;
             }
             .contact-1 {
                 color: #ffffff;
-                font-size:12px;
-                border-spacing: 7px 65px;
+                font-size:15px;
+                border-spacing: 5px 65px;
                 text-align: center;
-                flex: space-around;
-                font-size: 12px;
+                -webkit-box-flex: space-around;
+                    -ms-flex: space-around;
+                        flex: space-around;
+                font-size: 15px;
                 margin-top:50px;
             }
             
             
             }
-
-            @media all and (max-width:320px) and (min-width:1px){
+    
+            @media all and (max-width:426px) and (min-width:376px){
+            .vs-img {
+            width: 390px;
+            height: 405px;
+            margin-left: 8px;
+            margin-top: 10px;
+            float: left;
+            }
+    
+            .img-flynn{
+            float:none;
+            margin-left: 25px;
+            }
+            
+            .daft-punk{
+            margin-top:35px;
+            float:none;
+            margin-right: 8px;
+            width:390px;
+        }
+            .text-list, .text-list2{
+            text-align:center;
+            }
+            
+            .text-list4{
+            text-align:center;
+            margin-top: 400px;
+            font-size: 14px;
+            padding: 2px;
+            margin-left: 2px;
+            }
+            
+            .text-list5{
+                text-align:center;
+                margin-top: 10px;
+                font-size: 14px;
+                padding: 2px;
+                margin-left: 2px;
+                }
+            .tron-logo{
+            display: none;
+            }
+            .t-del{
+            display:none;
+            
+            }
+            .text-list3{
+                margin-top: -50px;
+               text-align:center;
+            }
+            .navigation-list_item-rumor, .download, .navigation-list_item-more{
+            display:none;
+        
+            }
+            
+            .art-1, .art-2, .art-3, .art-4{
+            padding: 2px;
+            margin: 2px;
+            text-align:center;
+            }
+            .uprising-img{
+            float:none;
+            margin-left: 15px;
+            width: 400px;
+            height: 415px;
+            margin-top: 60px;
+            }
+            .tron-lives{
+            float:none;
+            margin-left: 12px;
+            width: 400px;
+            height: 415px;
+            margin-top: 15px;
+            }
+            .jared-leto{
+            float: none;
+            margin-left:12px;
+            width:400px;
+            height: 350px;
+            margin-top: 40px;
+            }
+            .at-1, .at-2{
+            margin-left: 2px;
+            text-align:center;
+            }
+            .rinzler-end{
+            float: none;
+            margin-left:12px;
+            width:400px;
+            margin-top: 40px;
+            height: 350px;
+        }
+            .at-3, .at-4{
+            margin-right: 2px;
+            text-align:center;
+            }
+            .contact-1 {
+                color: #ffffff;
+                font-size:15px;
+                border-spacing: 5px 65px;
+                text-align: center;
+                -webkit-box-flex: space-around;
+                    -ms-flex: space-around;
+                        flex: space-around;
+                font-size: 15px;
+                margin-top:50px;
+            }
+            
+            
+            }
+            @media all and (max-width:375px) and (min-width:321px){
                 .vs-img {
-                width: 300px;
+                width: 293px;
                 height: 380px;
-                margin-left: 1px;
+                margin-left: 28px;
                 margin-top: 15px;
                 float: left;
                 }
                 .img-flynn{
                 float:none;
-                margin-left:8px;
-                width: 300px;
+                margin-left: 27px;
+                width:317px;
             }
                 
                 .daft-punk{
                 margin-top:35px;
                 float:none;
                 margin-left:0;
-                width:250px;
+                width:317px;
             }
                 .text-list, .text-list2{
                 text-align:center;
@@ -869,33 +785,34 @@ margin-right: 10px;
                 }
                 .uprising-img{
                 float:none;
-                margin-left: 2px;
+                margin-left: 28px;
                 width: 317px;
                 height: 415px;
                 margin-top: 60px;
                 }
                 .tron-lives{
                 float:none;
-                margin-left: 2px;
+                margin-left: 28px;
                 width: 317px;
                 height: 415px;
                 margin-top: 15px;
                 }
                 .jared-leto{
                 float: none;
-                margin-left:1px;
-                width:317px;
-                height: 350px;
+                margin-left:40px;
+                width:290px;
+                height: 315px;
                 margin-top: 40px;
                 }
                 .at-1, .at-2{
                 margin-left: 2px;
                 text-align:center;
-                }
+                
+            }
                 .rinzler-end{
                 float: none;
-                margin-left:2px;
-                width:317px;
+                margin-left:14px;
+                width:350px;
                 margin-top: 40px;
                 height: 350px;
             }
@@ -908,10 +825,122 @@ margin-right: 10px;
                     font-size:12px;
                     border-spacing: 7px 65px;
                     text-align: center;
-                    flex: space-around;
+                    -webkit-box-flex: space-around;
+                        -ms-flex: space-around;
+                            flex: space-around;
                     font-size: 12px;
                     margin-top:50px;
                 }
                 
                 
+                }
+    
+                @media all and (max-width:320px) and (min-width:1px){
+                    .vs-img {
+                    width: 300px;
+                    height: 380px;
+                    margin-left: 1px;
+                    margin-top: 15px;
+                    float: left;
+                    }
+                    .img-flynn{
+                    float:none;
+                    margin-left:8px;
+                    width: 300px;
+                }
+                    
+                    .daft-punk{
+                    margin-top:35px;
+                    float:none;
+                    margin-left:0;
+                    width:250px;
+                }
+                    .text-list, .text-list2{
+                    text-align:center;
+                
+                    }
+                    
+                    .text-list4{
+                    text-align:center;
+                    margin-top: 400px;
+                    font-size: 14px;
+                    padding: 2px;
+                    margin-left: 2px;
+                    }
+                    
+                    .text-list5{
+                        text-align:center;
+                        margin-top: 10px;
+                        font-size: 14px;
+                        padding: 2px;
+                        margin-left: 2px;
+                        }
+                    .tron-logo{
+                    display: none;
+                    }
+                    .t-del{
+                    display:none;
+                    
+                    }
+                    .text-list3{
+                        margin-top: -50px;
+                       text-align:center;
+                    }
+                    .navigation-list_item-rumor, .download, .navigation-list_item-more{
+                    display:none;
+                
+                    }
+                    
+                    .art-1, .art-2, .art-3, .art-4{
+                    padding: 2px;
+                    margin: 2px;
+                    text-align:center;
+                    }
+                    .uprising-img{
+                    float:none;
+                    margin-left: 2px;
+                    width: 317px;
+                    height: 415px;
+                    margin-top: 60px;
+                    }
+                    .tron-lives{
+                    float:none;
+                    margin-left: 2px;
+                    width: 317px;
+                    height: 415px;
+                    margin-top: 15px;
+                    }
+                    .jared-leto{
+                    float: none;
+                    margin-left:1px;
+                    width:317px;
+                    height: 350px;
+                    margin-top: 40px;
+                    }
+                    .at-1, .at-2{
+                    margin-left: 2px;
+                    text-align:center;
+                    }
+                    .rinzler-end{
+                    float: none;
+                    margin-left:2px;
+                    width:317px;
+                    margin-top: 40px;
+                    height: 350px;
+                }
+                    .at-3, .at-4{
+                    margin-right: 2px;
+                    text-align:center;
+                    }
+                    .contact-1 {
+                        color: #ffffff;
+                        font-size:12px;
+                        border-spacing: 7px 65px;
+                        text-align: center;
+                        -webkit-box-flex: space-around;
+                            -ms-flex: space-around;
+                                flex: space-around;
+                        font-size: 12px;
+                        margin-top:50px;
+                    }
                 }
